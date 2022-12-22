@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+  background-color: #8c8c8c;
+  /* width: 100%; */
+}
+.header__logo-img {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+}
+.header__spisok1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  margin-left: 850px;
+}
+.ssilka:hover {
+  text-decoration: underline;
+}
+.header__spisok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-right: 15px;
+}
+.header__li > a {
+  text-decoration: none;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.carousel-inner {
+  width: auto;
+  height: 450px;
+}
+.carousel-item > img {
+  filter: brightness(55%);
+  width: auto;
+  height: 450px;
+}
+.block {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* height: 900px; */
+  margin-top: 40px;
+}
+.card {
+  border: 0px;
+}
+.card-img-top {
+  width: 150px;
+  border-radius: 100px;
+  margin-left: 60px;
+  filter: brightness(60%);
+}
+.card-body > a {
+  margin-left: 58px;
+  margin-top: 15px;
+}
+.card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+.line {
+  margin-top: 60px;
+  margin-left: 70px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.footer__menu {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 60px;
+}
+.text {
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 5px;
+  font-size: 17px;
+  color: rgb(88, 85, 85);
+}
+.text:hover {
+  color: rgb(88, 85, 85);
+}
+.text1 {
+  margin-top: 30px;
+  margin-left: 70px;
+  font-size: 17px;
+  color: rgb(88, 85, 85);
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 860px;
+  /* width: 0; */
+}
+.mb-4 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.btn1 {
+  width: 30px;
+}

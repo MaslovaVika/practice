@@ -1,0 +1,63 @@
+.about_us {
+  display: flex;
+  align-items: flex-start;
+}
+.about_us1 {
+  margin-top: 60px;
+}
+
+.text7 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #535353;
+  margin-left: 80px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+.text2 {
+  width: 500px;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  line-height: 18px;
+  margin-left: 80px;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(61, 61, 61);
+}
+.foto_1 {
+  width: 420px;
+  height: 450px;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+.a {
+  display: flex;
+  align-items: flex-start;
+}
+.we1 {
+  margin-top: 160px;
+  margin-left: 70px;
+}
+.we2 {
+  display: flex;
+  align-items: flex-start;
+  justify-self: space-between;
+}
+.text8 {
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #535353;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
+.map {
+  margin-left: 80px;
+}
