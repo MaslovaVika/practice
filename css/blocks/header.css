@@ -2,21 +2,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-top: 10px; */
   background-color: #8c8c8c;
-  /* width: 100%; */
 }
 .header__logo-img {
   height: 70px;
   width: 70px;
   margin-left: 10px;
 }
+.header__uls{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .header__spisok1 {
   display: flex;
-  justify-content: center;
   align-items: center;
   column-gap: 15px;
-  margin-left: 850px;
+  margin-right: 10px;
 }
 .ssilka:hover {
   text-decoration: underline;
@@ -50,7 +52,6 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  /* height: 900px; */
   margin-top: 40px;
 }
 .card {
@@ -76,13 +77,12 @@
   text-align: center;
 }
 .line {
-  margin-top: 60px;
-  margin-left: 70px;
+  margin-left: 5%;
 }
 .footer {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 .footer__menu {
   display: flex;
@@ -110,8 +110,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 860px;
-  /* width: 0; */
 }
 .mb-4 {
   display: flex;
@@ -120,4 +118,17 @@
 }
 .btn1 {
   width: 30px;
+}
+@media screen and (max-width:576px) {
+  .header__logo-img{
+    height: 50px;
+    width: 50px;
+}
+  .block{
+    flex-direction: column;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+      }
 }
