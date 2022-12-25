@@ -60,3 +60,20 @@
 .map {
   margin-left: 80px;
 }
+@media screen and (max-width:576px) {
+  
+  .about_us{
+    display: block;
+  }
+  .foto_1{
+    width: 350px;
+  height: 350px;
+  margin-top: 10px;
+  }
+  .we__wetop{
+    display: block;
+  }
+  .we1 {
+    margin-left: 0px;
+  }
+}
