@@ -65,9 +65,15 @@
   .about_us{
     display: block;
   }
+  .text7{
+    margin-left: 10px;
+  }
+  .text2{
+    margin-left: 10px;
+  }
   .foto_1{
     width: 350px;
-  height: 350px;
+  height: 350px; 
   margin-top: 10px;
   }
   .we__wetop{
@@ -75,5 +81,14 @@
   }
   .we1 {
     margin-left: 0px;
+  }
+  .foto_1 {
+    margin-left: 10px;
+  }
+  .text8 {
+    margin-left: 10px;
+  }
+  .map{
+    margin-left: 10px;
   }
 }
