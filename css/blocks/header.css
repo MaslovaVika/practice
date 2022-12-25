@@ -127,12 +127,15 @@
   .header__logo-img{
     height: 50px;
     width: 50px;
-}
+  }
+  .carousel slide{
+   height: 100px;
+  }
   .block{
     flex-direction: column;
-    }
-    .card {
-        margin-left: auto;
-        margin-right: auto;
-      }
+  }
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
